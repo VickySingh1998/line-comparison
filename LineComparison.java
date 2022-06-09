@@ -3,7 +3,7 @@ package com.bridgelabz;
 import java.util.Scanner;
 public class LineComparison {
 
-    public static void calculateLengthUC1() {
+    public static void compareLines() {
         Scanner scanner = new Scanner(System.in);
         System.out.print("Enter x1: ");
         int x1 = scanner.nextInt();
@@ -39,7 +39,7 @@ public class LineComparison {
     }
 
     public static void main(String[] args) {
-        calculateLengthUC1();
+        compareLines();
     }
 }
 
